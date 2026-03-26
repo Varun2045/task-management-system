@@ -9,7 +9,7 @@ _A powerful task management web app built with the MERN stack featuring authenti
 
 ### 🌐 **Live Demo**
 🔗 [View Deployed App on Render](https://taskmanager-frontend-b3zq.onrender.com)   
-💻 [View Source Code on GitHub](https://github.com/yashtank86/mern-task-manager-jwt-auth-admin-dashboard)
+💻 [View Source Code on GitHub](https://github.com/Varun2045/task-management-system)
 
 > ⚠️ **Note:**  
 > - Render’s free tier **automatically shuts down the app** if it hasn't been used for a while.  
@@ -151,7 +151,7 @@ Make sure you have installed:
 
 ```bash
 # 1️⃣ Clone the Repository
-git clone https://github.com/yashtank86/mern-task-manager-jwt-auth-admin-dashboard.git
+git clone https://github.com/Varun2045/task-management-system.git
 
 # 2️⃣ Navigate into Project
 cd mern-task-manager-jwt-auth-admin-dashboard
@@ -218,15 +218,6 @@ mern-task-manager-jwt-auth-admin-dashboard/
 - Email notifications for task updates 📧  
 - Dark/Light mode toggle 🌗  
 
----
-
-## 🧑‍💻 **Author**
-**Yash Tank**  
-💼 Software Developer  
-🌍 [LinkedIn](https://linkedin.com/in/yashtank86)  
-📧 [Email Me](mailto:work.tankyash@gmail.com)
-
----
 
 ## ⭐ **Support**
 If you like this project, don’t forget to ⭐ **star** the repository and share it!

@@ -1,7 +1,4 @@
-
 # 🧠 Task Manager — MERN Stack Project
-
-<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/66169120-03c1-4127-a3fd-1bbe8f7a8829" />
 
 _A powerful task management web app built with the MERN stack featuring authentication, dashboards, task analytics, and admin-user collaboration._
 
@@ -11,22 +8,6 @@ _A powerful task management web app built with the MERN stack featuring authenti
 🔗 [View Deployed App on Render](https://taskmanager-frontend-b3zq.onrender.com)   
 💻 [View Source Code on GitHub](https://github.com/Varun2045/task-management-system)
 
-> ⚠️ **Note:**  
-> - Render’s free tier **automatically shuts down the app** if it hasn't been used for a while.  
->   To load the app, you may need to **refresh the page** after opening the live demo.  
-> - Uploaded **images/files may be removed** due to free-tier storage limitations.  
-
-<!--
-
-### Dummy User Credentials
-
-You can use these credentials to log in and test the app:
-
-| Role       | Email              | Password   |
-|------------|--------------------|------------|
-| User       | kobi@google.com    | kobi@111   |
-
--->
 ---
 
 ## 📸 **Screenshots**
@@ -38,28 +19,21 @@ You can use these credentials to log in and test the app:
 |**Register Page**|
 |<img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/ea5049f1-5785-4fb7-bbf2-583c78f5d579" />|
 
-
-
 ### 🧑‍💼 Admin Dashboard
 <img width="1500" height="1000" alt="admin_dashboard" src="https://github.com/user-attachments/assets/1727c1f5-517d-4dad-9556-5b4847dd9484" />
-
 
 ### 👤 User Dashboard
 <img width="1500" height="1000" alt="user_dashboard" src="https://github.com/user-attachments/assets/bc499c4d-ff56-44d4-b840-94665e520ae4" />
 
-
 ### 📋 Task Creation (Admin)
-<img width="1500" height="852" alt="Screenshot 2025-10-09 024115" src="https://github.com/user-attachments/assets/6a0cb1fd-c69a-48b7-ab7b-380c16c62fa0" />
-
+<img width="1500" height="852" alt="Task Creation" src="https://github.com/user-attachments/assets/6a0cb1fd-c69a-48b7-ab7b-380c16c62fa0" />
 
 ### 📊 Reports & Analytics
-|User Details|
+| User Details |
 |:-------------:|
 |<img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/312310ec-3360-4211-9c92-3681c0ca83c0" />|
 |**Task Details**|
 |<img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/d73c154f-f0dd-45c5-8415-918147c402f3" />|
-
-
 
 ---
 
@@ -73,6 +47,7 @@ You can use these credentials to log in and test the app:
 ---
 
 ### 📊 **Dashboard Analytics**
+
 #### 🧑 User Dashboard:
 - Displays only User related task statistics using **Pie Chart** (Pending, In Progress, Completed).
 - **Bar Chart** showing Task Priority distribution (Low, Medium, High).
@@ -110,7 +85,7 @@ You can use these credentials to log in and test the app:
 ### 👥 **User Features**
 - View only assigned tasks.
 - Update subtasks (To-do checklist).
-- Watch automatic task progress and status updates.
+- Automatic task progress and status updates based on checklist.
 - Filter tasks by:
   - `All | Pending | In Progress | Completed`
 - View task details including:
@@ -129,7 +104,7 @@ You can use these credentials to log in and test the app:
 | Layer | Technology |
 |-------|-------------|
 | **Frontend** | React.js, React Router, Axios, Chart.js, Tailwind CSS, Toaster |
-| **Backend** | Node.js, Express.js, Cors, Multer, Excel.js|
+| **Backend** | Node.js, Express.js, Cors, Multer, Excel.js |
 | **Database** | MongoDB (Mongoose ORM) |
 | **Authentication** | JSON Web Tokens (JWT), bcrypt |
 | **Deployment** | Render (Backend + Frontend), GitHub |
@@ -154,37 +129,36 @@ Make sure you have installed:
 git clone https://github.com/Varun2045/task-management-system.git
 
 # 2️⃣ Navigate into Project
-cd mern-task-manager-jwt-auth-admin-dashboard
+cd task-management-system
 
 # 3️⃣ Install Dependencies
 cd backend && npm install
-cd frontend && npm install
+cd ../frontend && npm install
 
 # 4️⃣ Add Environment Variables
-Create `.env` file in `backend` folder and add:
+# Create .env file in backend folder and add:
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
-ADMIN_INVITE_TOKEN= 7-digit-Code-choose-any 
+ADMIN_INVITE_TOKEN=7-digit-code-of-your-choice
 
 # 5️⃣ Run Backend
 cd backend
-npm start or npm run dev
+npm run dev
 
 # 6️⃣ Run Frontend
 cd frontend
-npm start or npm run dev
+npm run dev
 ```
 
-Then open frontend 👉 `http://localhost:5173` 
-- The server runs on a PORT that may vary depending on your environment.
+Then open frontend 👉 `http://localhost:5173`
 
 ---
 
 ## 📦 **Folder Structure**
 
 ```
-mern-task-manager-jwt-auth-admin-dashboard/
+task-management-system/
 │
 ├── frontend/              # React Frontend
 │   ├── src/
@@ -192,7 +166,7 @@ mern-task-manager-jwt-auth-admin-dashboard/
 │   │   ├── components/    # UI Components
 │   │   ├── pages/         # Page Components
 │   │   ├── context/       # Context API
-│   │   ├── hooks/         # custom hooks
+│   │   ├── hooks/         # Custom hooks
 │   │   ├── utils/         # Helper functions
 │   │   ├── routes/        # Route configuration
 │   │   └── App.jsx
@@ -213,22 +187,14 @@ mern-task-manager-jwt-auth-admin-dashboard/
 ---
 
 ## 📈 **Future Enhancements**
-- Task comments section 💬  
-- File upload for attachments 📎  
-- Email notifications for task updates 📧  
-- Dark/Light mode toggle 🌗  
+- Task comments section 💬
+- File upload for attachments 📎
+- Email notifications for task updates 📧
+- Dark/Light mode toggle 🌗
 
-
-## ⭐ **Support**
-If you like this project, don’t forget to ⭐ **star** the repository and share it!
-
-<!--
 ---
 
-## 🖼️ **Sample Preview**
-
-### Sample Preview
-
-Check out the dashboards in the [Screenshots above](#screenshots) or view them live in the demo.
-
--->
+## 👨‍💻 **Developer**
+Built by **Varun Damani**  
+📧 varun.damani.12@gmail.com  
+🔗 [github.com/Varun2045](https://github.com/Varun2045)

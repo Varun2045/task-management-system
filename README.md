@@ -1,200 +1,208 @@
-# 🧠 Task Manager — MERN Stack Project
+<h3 align="center"> Task Management System</h3>
 
-_A powerful task management web app built with the MERN stack featuring authentication, dashboards, task analytics, and admin-user collaboration._
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
----
+<div align="center">
 
-### 🌐 **Live Demo**
-🔗 [View Deployed App on Render](https://task-manager-frontend-jt51.onrender.com/)   
-💻 [View Source Code on GitHub](https://github.com/Varun2045/task-management-system)
+**A powerful task management web app built with the MERN stack featuring authentication, dashboards, task analytics, and admin-user collaboration.**
 
----
+</div>
 
-## 📸 **Screenshots**
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
-### 🔐 Authentication (Login / Register)
-| Login Page |
-|:-------------:|
-|<img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/d555e06e-871e-4b2c-97b2-91bd24532e82" />|
-|**Register Page**|
-|<img width="1600" height="763" alt="image" src="https://github.com/user-attachments/assets/ea5049f1-5785-4fb7-bbf2-583c78f5d579" />|
+<br>
 
-### 🧑‍💼 Admin Dashboard
-<img width="1500" height="1000" alt="admin_dashboard" src="https://github.com/user-attachments/assets/1727c1f5-517d-4dad-9556-5b4847dd9484" />
+<div align="center">
 
-### 👤 User Dashboard
-<img width="1500" height="1000" alt="user_dashboard" src="https://github.com/user-attachments/assets/bc499c4d-ff56-44d4-b840-94665e520ae4" />
+🔗 **Live Demo:** https://task-manager-frontend-jt51.onrender.com/
 
-### 📋 Task Creation (Admin)
-<img width="1500" height="852" alt="Task Creation" src="https://github.com/user-attachments/assets/6a0cb1fd-c69a-48b7-ab7b-380c16c62fa0" />
+</div>
 
-### 📊 Reports & Analytics
-| User Details |
-|:-------------:|
-|<img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/312310ec-3360-4211-9c92-3681c0ca83c0" />|
-|**Task Details**|
-|<img width="1500" height="852" alt="image" src="https://github.com/user-attachments/assets/d73c154f-f0dd-45c5-8415-918147c402f3" />|
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
----
+<h3 align="center">🚀 What It Does</h3>
 
-## 🚀 **Features**
+<div align="center">
 
-### 🔑 **Authentication & Authorization**
-- JWT-based secure authentication.
-- Role-based access control (Admin / User).
-- Separate dashboards for Admin and Users.
+*"Create and assign tasks to team members with priorities and deadlines."*
 
----
+*"Track real-time progress through checklists and status updates."*
 
-### 📊 **Dashboard Analytics**
+*"Download Excel reports for tasks and user performance."*
 
-#### 🧑 User Dashboard:
-- Displays only User related task statistics using **Pie Chart** (Pending, In Progress, Completed).
-- **Bar Chart** showing Task Priority distribution (Low, Medium, High).
-- Recently added tasks section.
-- Task counters at the top:  
-  `Total Tasks | Pending | In Progress | Completed`
+</div>
 
-#### 🧑‍💼 Admin Dashboard:
-- Overview of all system tasks and users.
-- Same analytics charts for quick insights of entire system.
-- Recently created tasks summary.
-- Team performance overview.
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
----
+<h3 align="center">🛠️ Tech Stack</h3>
 
-### 📝 **Task Management (Admin)**
-- Create tasks with:
-  - `Title`, `Description`, `Priority (Low, Medium, High)`, and `Due Date`.
-  - Assign multiple members (users).
-  - Add To-do checklist (subtasks).
-  - Add attachments (URL format).
-- Tasks are visible to assigned members only.
-- Real-time task status and progress updates based on checklist completion.
-
----
-
-### 📦 **Reports & Exports (Admin)**
-- Download **Task Reports** in Excel:
-  - Includes: Task ID, Title, Description, Priority, Status, Assigned Members.
-- Download **User Reports** in Excel:
-  - Includes: Username, Email, Total Assigned Tasks, Pending, In Progress, and Completed counts.
-
----
-
-### 👥 **User Features**
-- View only assigned tasks.
-- Update subtasks (To-do checklist).
-- Automatic task progress and status updates based on checklist.
-- Filter tasks by:
-  - `All | Pending | In Progress | Completed`
-- View task details including:
-  - Priority, Progress %, Due Date, Attachments, and Assigned Members.
-
----
-
-### 💻 **Responsive Design**
-- Fully responsive for all devices (Desktop, Tablet, Mobile).
-- Smooth UI/UX with modern animations and charts.
-
----
-
-## 🧰 **Tech Stack**
+<div align="center">
 
 | Layer | Technology |
-|-------|-------------|
+|-------|------------|
 | **Frontend** | React.js, React Router, Axios, Chart.js, Tailwind CSS, Toaster |
-| **Backend** | Node.js, Express.js, Cors, Multer, Excel.js |
+| **Backend** | Node.js, Express.js, Cors, Multer, ExcelJS |
 | **Database** | MongoDB (Mongoose ORM) |
 | **Authentication** | JSON Web Tokens (JWT), bcrypt |
 | **Deployment** | Render (Backend + Frontend), GitHub |
 | **Reports** | XLSX (Excel Export) |
 
----
+</div>
 
-## ⚙️ **Installation & Setup**
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
-### 🧾 Prerequisites
-Make sure you have installed:
-- Node.js (v16+)
-- MongoDB
-- npm or yarn
+<h3 align="center">🔧 Available Features</h3>
 
----
+<div align="center">
 
-### 🪜 Steps
+| Feature | Description |
+|---------|-------------|
+| `JWT Authentication` | Secure login & registration with role-based access |
+| `Admin Dashboard` | Full system overview with charts, task stats & team performance |
+| `User Dashboard` | Personal task view with Pie & Bar chart analytics |
+| `Task Management` | Create tasks with priority, due date, checklists & member assignment |
+| `Excel Reports` | Download task & user performance reports in `.xlsx` format |
+| `Responsive Design` | Fully optimized for Desktop, Tablet & Mobile |
 
+</div>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<h3 align="center">📸 Screenshots</h3>
+
+<div align="center">
+
+<h4>🔐 Authentication — Login & Register</h4>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/d555e06e-871e-4b2c-97b2-91bd24532e82" alt="Login Page" width="700"/>
+<img src="https://github.com/user-attachments/assets/ea5049f1-5785-4fb7-bbf2-583c78f5d579" alt="Register Page" width="700"/>
+
+<h4>🧑‍💼 Admin Dashboard</h4>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/1727c1f5-517d-4dad-9556-5b4847dd9484" alt="Admin Dashboard" width="700"/>
+
+<h4>👤 User Dashboard</h4>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/bc499c4d-ff56-44d4-b840-94665e520ae4" alt="User Dashboard" width="700"/>
+
+<h4>📋 Task Creation (Admin)</h4>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/6a0cb1fd-c69a-48b7-ab7b-380c16c62fa0" alt="Task Creation" width="700"/>
+
+<h4>📊 Reports & Analytics</h4>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/312310ec-3360-4211-9c92-3681c0ca83c0" alt="User Details Report" width="700"/>
+<img src="https://github.com/user-attachments/assets/d73c154f-f0dd-45c5-8415-918147c402f3" alt="Task Details Report" width="700"/>
+
+</div>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<h3 align="center">⚙️ Setup</h3>
+
+**1. Clone the Repository**
 ```bash
-# 1️⃣ Clone the Repository
 git clone https://github.com/Varun2045/task-management-system.git
-
-# 2️⃣ Navigate into Project
 cd task-management-system
+```
 
-# 3️⃣ Install Dependencies
+**2. Install Dependencies**
+```bash
 cd backend && npm install
 cd ../frontend && npm install
+```
 
-# 4️⃣ Add Environment Variables
-# Create .env file in backend folder and add:
+**3. Add Environment Variables**
+```bash
+# Create a .env file inside the backend/ folder and add:
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 ADMIN_INVITE_TOKEN=7-digit-code-of-your-choice
-
-# 5️⃣ Run Backend
-cd backend
-npm run dev
-
-# 6️⃣ Run Frontend
-cd frontend
-npm run dev
 ```
 
-Then open frontend 👉 `http://localhost:5173`
+**4. Run the App**
+```bash
+# Terminal 1 — Backend
+cd backend && npm run dev
 
----
+# Terminal 2 — Frontend
+cd frontend && npm run dev
+```
 
-## 📦 **Folder Structure**
+**5.** Open your browser at 👉 `http://localhost:5173`
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<h3 align="center">📦 Folder Structure</h3>
 
 ```
 task-management-system/
 │
 ├── frontend/              # React Frontend
 │   ├── src/
-│   │   ├── assets/        # Static files like images, icons, fonts
+│   │   ├── assets/        # Static files (images, icons, fonts)
 │   │   ├── components/    # UI Components
 │   │   ├── pages/         # Page Components
 │   │   ├── context/       # Context API
-│   │   ├── hooks/         # Custom hooks
-│   │   ├── utils/         # Helper functions
-│   │   ├── routes/        # Route configuration
+│   │   ├── hooks/         # Custom Hooks
+│   │   ├── utils/         # Helper Functions
+│   │   ├── routes/        # Route Configuration
 │   │   └── App.jsx
 │   └── package.json
 │
 ├── backend/               # Node + Express Backend
-│   ├── config/            # Database & JWT config
+│   ├── config/            # Database & JWT Config
 │   ├── controllers/       # Business Logic
 │   ├── middleware/        # Auth Middleware
 │   ├── models/            # Mongoose Models
 │   ├── routes/            # API Routes
-│   ├── uploads/           # User Profile Pic Storage
+│   ├── uploads/           # User Profile Picture Storage
 │   └── server.js
 │
 └── README.md
 ```
 
----
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
 
-## 📈 **Future Enhancements**
-- Task comments section 💬
-- File upload for attachments 📎
-- Email notifications for task updates 📧
-- Dark/Light mode toggle 🌗
+<h3 align="center">📈 Future Enhancements</h3>
 
----
+<div align="center">
 
-## 👨‍💻 **Developer**
-Built by **Varun Damani**  
-📧 varun.damani.12@gmail.com  
-🔗 [github.com/Varun2045](https://github.com/Varun2045)
+💬 Task Comments Section &nbsp;|&nbsp; 📎 File Upload for Attachments &nbsp;|&nbsp; 📧 Email Notifications &nbsp;|&nbsp; 🌗 Dark / Light Mode Toggle
+
+</div>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>
+
+<h3 align="center">👨‍💻 Developer</h3>
+
+<div align="center">
+
+Built by **Varun Damani**
+
+📧 varun.damani.12@gmail.com &nbsp;&nbsp;|&nbsp;&nbsp; 🔗 [github.com/Varun2045](https://github.com/Varun2045)
+
+</div>
+
+<div align="center"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></div>

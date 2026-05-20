@@ -5,7 +5,7 @@ _A powerful task management web app built with the MERN stack featuring authenti
 ---
 
 ### 🌐 **Live Demo**
-🔗 [View Deployed App on Render](https://taskmanager-frontend-b3zq.onrender.com)   
+🔗 [View Deployed App on Render](https://task-manager-frontend-jt51.onrender.com/)   
 💻 [View Source Code on GitHub](https://github.com/Varun2045/task-management-system)
 
 ---
